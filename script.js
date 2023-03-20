@@ -20,7 +20,7 @@ function calculateMinCost() {
 		inputarr.push(val);	
 	}
 
-	document.getElementById("result").textContent=cost;
+	document.getElementById("result").innerHTML=cost;
   
   
 }  
